@@ -1,4 +1,4 @@
-module github.com/atreugo/session
+module github.com/hemant404/session
 
 go 1.17
 
@@ -37,3 +37,4 @@ require (
 	golang.org/x/sys v0.6.0 // indirect
 	golang.org/x/text v0.8.0 // indirect
 )
+replace github.com/fasthttp/session/v2 => github.com/hemant404/fasthttp-session v1.2.0
